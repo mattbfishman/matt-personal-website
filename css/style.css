@@ -179,3 +179,77 @@ footer li{
 #skills td{
     text-align: center;
 }
+
+#mail{
+    padding-left: 5%;
+    width: 10%;
+    float: left;
+    padding-top: 10%;
+}
+#git{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+}
+#facebook{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+}
+#twitter{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%; 
+}
+#instagram{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+    padding-right:5%;
+}
+#mail-header{
+    padding-left: 5%;
+    width: 10%;
+    float: left;
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 24px;
+}
+#git-header{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 24px;
+}
+#facebook-header{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 24px;
+}
+#twitter-header{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+#instagram-header{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+    padding-right:5%;
+    font-weight: bold;
+    font-size: 24px;
+}

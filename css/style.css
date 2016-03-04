@@ -1,16 +1,15 @@
 /* All style should go in this document. */
 #content{
-	font-family:Times;
 	width: 100%;
 }
-#about-header, #affiliations-header{
-	color:#111;
+#about-header, #projects-header{
+	color:gray;
     font-weight: bold;
     font-size: 48px;
     text-align: center;
 }
-#home-header, #skills-header, #contact-header{
-    color:gray;
+#skills-header{
+    color:#111;
     font-weight: bold;
     font-size: 48px;
     text-align: center;
@@ -62,18 +61,18 @@ a{
     width:100%;
     height:100%;
 }
-#about, #affiliations{
-    background-color: #3399ff;
-    color:white;
+#about, #projects{
+    background-color: white;
+    color:#3399ff;
     padding-top: 50px;
 
 }
-#home, #skills, #contact{
-    background-color: white;
-    color: #3399ff;
+#skills{
+    background-color: #3399ff;
+    color: white;
     padding-top: 50px;
 }
-#home,#about,#skills,#affiliations,#contact{
+#about,#skills,#projects{
     height: 93%;
 }
 body{
@@ -82,6 +81,8 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    font-family: sans-serif;
+
 
 }    
 html {
@@ -89,16 +90,84 @@ html {
     overflow-x: hidden; 
 
 }
-table{
-    font-size: 24px;
-}
 footer{
     background-color:#333;
+    width: 100%;
     color:white;
+    position: relative;
 }
 footer li{
     list-style-type: none;
     padding: 14px;
     display: inline;
     width: 100%;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#about-left-col{
+    width: 30%;
+    float: left;
+    padding-left: 10%;
+    padding-top: 10%;
+
+}
+#about-right-col{
+    font-size: 18px;
+    width: 40%;
+    padding-left: 5%;
+    float: right;
+    padding-top: 5%;
+}
+#about-right-col td, #about-left-col td{
+    padding-top:50px;
+}
+#skills strong{
+    font-size: 24px;
+}
+#skills-col-1{
+    padding-left: 5%;
+    width: 10%;
+    float: left;
+    padding-top: 10%;
+    font-size: 18px;
+
+}
+#skills-col-2{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+    font-size: 18px;
+
+}
+#skills-col-3{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+    font-size: 18px;
+
+}
+#skills-col-4{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+    font-size: 18px;
+    
+}
+#skills-col-5{
+    float: left;
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 10%;
+    font-size: 18px;
+    
+}
+#skills th{
+
+
 }

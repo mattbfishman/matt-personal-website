@@ -6,30 +6,36 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="js/"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+         <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 <body>
 	<div id="nav-bar">
 		<ul>
-		  <li class="active"><a href="#home">Home</a></li>
-		  <li><a href="#about">About</a></li>
+		  <li class="active"><a href="#about">About</a></li>
 		  <li><a href="#skills">Skills</a></li>
-		  <li><a href="#affiliations">Affiliations</a></li>
-		  <li><a href="#contact">Contact</a></li>
+		  <li><a href="#projects">Projects</a></li>
 		</ul>
 	</div>
 	
-	<div id="content">
-		<div id="home">
-			<div id="home-header">
-				HOME
-			</div>
-		</div>
-
 
 		<div id="about">
 			<div id="about-header">
 				ABOUT
+				<br>
 			</div>
-			<br>
+			<div id="about-left-col">
+				Photo of me to be placed here.
+			</div>
+			<div id ="about-right-col">
 			<table>
 				<tr>
 				<td><strong>Name:</strong> Matthew Fishman</td>
@@ -40,41 +46,126 @@
 				<tr>
 				<td><strong>Degree:</strong> Bachelors of Science in Software</td>
 				</tr>
+				<tr>
+				<td><strong>Resume</strong><a href="New Resume.pdf"> Click here!</a></td>
+				</tr>
 			</table>
-			
+			</div>
 		</div>
 
 		<div id="skills">
 			<div id="skills-header">
 				SKILLS
+				<br>
 			</div>
-			<p>
-				<strong>Programming:</strong> Java, HTML, CSS, JavaScript, Python, MySQL, Scala, Meteor, HTTP/REST API, Parsing JSON
-				<br>
-				<strong>Applications:</strong> Eclipse, GitHub, Adobe Photoshop, Microsoft Office Suite
-				<br>
-				<strong>Operating Systems:</strong> Windows, Mac OS X, Android, Linux
-				<br>
-				<strong>Technical Support:</strong> Virtual Machines, Remote Desktop
-				<br>
-				<strong>Development Methologies:</strong> Agile/Scrum, Waterfall
-			</p>
+			<div id="skills-col-1">
+				<table>
+					<tr>
+					<td><strong>Programming</strong></td>
+					</tr>
+					<tr>
+					 	<td>Java</td> 
+					</tr>
+					<tr>
+						<td>HTML</td>
+					</tr>
+					<tr>
+						<td>CSS</td>
+					</tr>
+					<tr>
+					  	<td>JavaScript</td> 
+					 </tr>
+					<tr>
+					  	<td>Python</td>
+					</tr>
+					<tr>
+					  	<td>MySQL</td>
+					</tr>
+					<tr>
+					  	<td>Scala</td>
+					</tr>
+					<tr>
+					  	<td>Meteor</td>
+					</tr>
+					<tr>
+					  	<td>HTTP/REST API</td>
+					</tr>
+					<tr>
+					  	<td>Parsing JSON</td>
+					</tr>
+				</table>
+			</div>
+			<div id="skills-col-2">
+				<table>
+					<tr>
+						<td><strong>Applications</strong></td>
+					</tr>
+					<tr>
+					 <td>Eclipse</td>
+					 </tr>
+					<tr>
+					 <td>GitHub</td>
+					 </tr>
+					<tr>
+					 <td>Adobe Photoshop</td>
+					 </tr>
+					<tr>
+					 <td>Microsoft Office Suite</td>
+					</tr>
+				</table>
+			</div>
+			<div id="skills-col-3">
+				<table>
+				<tr>
+				<strong>Operating Systems</strong>
+					</tr>
+					<tr>
+					 	<td>Windows</td>
+					 </tr>
+						<tr>
+						<td>Mac OS X</td>
+					</tr>
+					<tr>
+						<td>Android</td>
+					</tr>
+					<tr>
+					 	<td>Linux</td>
+					</tr>
+				</table>
+			</div>
+			<div id="skills-col-4">
+				<table>
+					<tr>
+						<td><strong>Technical Support</strong></td>
+					</tr>
+					<tr>
+						<td>Virtual Machines</td>
+					</tr>
+					<tr>
+						<td>Remote Desktop</td>
+					</tr>
+				</table>
+			</div>
+			<div id="skills-col-5">
+				<table>
+					<tr>
+						<td><strong>Development Methologies</strong></td>
+					</tr>
+					<tr>
+						<td>Agile/Scrum</td>
+					</tr>
+					<tr>	
+						<td>Waterfall</td>
+					</tr>
+				</table>
+				</div>
 		</div>
 
-		<div id="affiliations">
-			<div id="affiliations-header">
-				AFFILIATIONS
+		<div id="projects">
+			<div id="projects-header">
+				PROJECTS
 			</div>
 			<p>
-				<strong>Quinnipiac Computing Club,</strong> Founding Vice President
-				<br>
-				<strong>Alpha Epsilon Pi,</strong> Risk Management Chair
-				<br>
-				<strong>Alpha Epsilon Pi,</strong> Founding Father
-				<br>
-				<strong>WQAQ (College Radio Station),</strong> Events Department Member
-				<br>
-				<strong>WQAQ,</strong> Web Department Manager
 			</p>
 		</div>
 
@@ -90,13 +181,14 @@
 				<a href="https://github.com/mattbfishman/MattFishman">GitHub</a>
 		</div> -->
 
-		<footer>
+		<!-- <footer>
 			<ul>
 				<li><strong>Phone Number:</strong> <div id="phone">908-770-2359</div></li>
 				<li><strong>Email:</strong> <a href="mailto:mbfishman@quinnipuic.edu"> mbfishman@quinnipiac.edu</a></li>
 				<li><a href="https://github.com/mattbfishman/MattFishman">GitHub</a></li>
 			</ul>
 		</footer>
+		-->
 	</div>
 
 

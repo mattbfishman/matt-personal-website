@@ -1,218 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title> </title>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-         <meta charset="utf-8">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<head>
+  <title>Resume Site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
-	<div id="nav-bar">
-		<ul>
-		  <li class="active"><a href="#about">About</a></li>
-		  <li><a href="#skills">Skills</a></li>
-		  <li><a href="#contact">Contact</a></li>
-		</ul>
-	</div>
-	
 
-		<div id="about">
-			<div id="about-header">
-				ABOUT
-				<br>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-fixed-top">
+        <li class="active"><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	<div id="about">
+		<div class="about-header">
+			ABOUT
+			<br>
+		</div>
+		<div class="row">
+			<div class="col-sm-5 col-sm-offset-1">
+				<div class= "about-left-col">
+					Photo of me to be placed here.
+				</div>
 			</div>
-			<div id="about-left-col">
-				Photo of me to be placed here.
-			</div>
-			<div id ="about-right-col">
-				<table>
-					<tr>
-						<td><strong>Name:</strong> Matthew Fishman</td>
-					</tr>
-					<tr>
-						<td><strong>Education:</strong>	Quinnipiac University</td>
-					</tr>
-					<tr>
-						<td><strong>Degree:</strong> Bachelors of Science in Software Engineering</td>
-					</tr>
-					<tr>
-						<td><strong>Phone:</strong> (908) 770-2359</td>
-					</tr>
-					<tr>
-						<td><strong>Resume:</strong><a href="res/New Resume.pdf" target="_blank"> Click here!</a></td>
-					</tr>
-				</table>
+		 	<div class="col-sm-5 col-sm-offset-1">
+		 		<div class= "about-right-col">
+					<table>
+						<tr>
+							<td><strong>Name:</strong> Matthew Fishman</td>
+						</tr>
+						<tr>
+							<td><strong>Education:</strong>	Quinnipiac University</td>
+						</tr>
+						<tr>
+							<td><strong>Degree:</strong> Bachelors of Science in Software Engineering</td>
+						</tr>
+						<tr>
+							<td><strong>Phone:</strong> (908) 770-2359</td>
+						</tr>
+						<tr>
+							<td><strong>Resume:</strong><a href="res/New Resume.pdf" target="_blank"> Click here!</a></td>
+						</tr>
+					</table>
+				</div>
 			</div>
 		</div>
+	</div>
 
-		<div id="skills">
-			<div id="skills-header">
+	<div id="skills">
+		<div class="container-fluid">
+			<div class="skills-header">
 				SKILLS
 				<br>
 			</div>
-			<div id="skills-col-1">
-				<table>
-					<tr>
-						<th><strong>Programming</strong></th>
-					</tr>
-					<tr>
-					 	<td>Java</td> 
-					</tr>
-					<tr>
-						<td>HTML</td>
-					</tr>
-					<tr>
-						<td>CSS</td>
-					</tr>
-					<tr>
-					  	<td>JavaScript</td> 
-					 </tr>
-					<tr>
-					  	<td>Python</td>
-					</tr>
-					<tr>
-					  	<td>MySQL</td>
-					</tr>
-					<tr>
-					  	<td>Scala</td>
-					</tr>
-					<tr>
-					  	<td>Meteor</td>
-					</tr>
-					<tr>
-					  	<td>HTTP/REST API</td>
-					</tr>
-					<tr>
-					  	<td>Parsing JSON</td>
-					</tr>
-				</table>
-			</div>
-			<div id="skills-col-2">
-				<table>
-					<tr>
-						<th><strong>Applications</strong></th>
-					</tr>
-					<tr>
-					 <td>Eclipse</td>
-					 </tr>
-					<tr>
-					 <td>GitHub</td>
-					 </tr>
-					<tr>
-					 <td>Adobe Photoshop</td>
-					 </tr>
-					<tr>
-					 <td>Microsoft Office Suite</td>
-					</tr>
-				</table>
-			</div>
-			<div id="skills-col-3">
-				<table>
-					<tr>
-						<th><strong>Operating Systems</strong></th>
-					</tr>
-					<tr>
-					 	<td>Windows</td>
-					 </tr>
+			<div class="col-sm-2 col-sm-offset-1">
+				<div class="skills-col-1">
+					<table>
 						<tr>
-						<td>Mac OS X</td>
-					</tr>
-					<tr>
-						<td>Android</td>
-					</tr>
-					<tr>
-					 	<td>Linux</td>
-					</tr>
-				</table>
+							<th><strong>Programming</strong></th>
+						</tr>
+						<tr>
+						 	<td>Java</td> 
+						</tr>
+						<tr>
+							<td>HTML</td>
+						</tr>
+						<tr>
+							<td>CSS</td>
+						</tr>
+						<tr>
+						  	<td>JavaScript</td> 
+						 </tr>
+						<tr>
+						  	<td>Python</td>
+						</tr>
+						<tr>
+						  	<td>MySQL</td>
+						</tr>
+						<tr>
+						  	<td>Scala</td>
+						</tr>
+						<tr>
+						  	<td>Meteor</td>
+						</tr>
+						<tr>
+						  	<td>HTTP/REST API</td>
+						</tr>
+						<tr>
+						  	<td>Parsing JSON</td>
+						</tr>
+					</table>
+				</div>
 			</div>
-			<div id="skills-col-4">
-				<table>
-					<tr>
-						<th><strong>Technical Support</strong></th>
-					</tr>
-					<tr>
-						<td>Virtual Machines</td>
-					</tr>
-					<tr>
-						<td>Remote Desktop</td>
-					</tr>
-				</table>
+			<div class="col-sm-2">
+				<div class="skills-col-2">
+					<table>
+						<tr>
+							<th><strong>Applications</strong></th>
+						</tr>
+						<tr>
+						 <td>Eclipse</td>
+						 </tr>
+						<tr>
+						 <td>GitHub</td>
+						 </tr>
+						<tr>
+						 <td>Adobe Photoshop</td>
+						 </tr>
+						<tr>
+						 <td>Microsoft Office Suite</td>
+						</tr>
+					</table>
+				</div>
 			</div>
-			<div id="skills-col-5">
-				<table>
-					<tr>
-						<th><strong>Development Methologies</strong></th>
-					</tr>
-					<tr>
-						<td>Agile/Scrum</td>
-					</tr>
-					<tr>	
-						<td>Waterfall</td>
-					</tr>
-				</table>
+			<div class="col-sm-2">
+				<div class="skills-col-3">
+					<table>
+						<tr>
+							<th><strong>Operating Systems</strong></th>
+						</tr>
+						<tr>
+						 	<td>Windows</td>
+						 </tr>
+							<tr>
+							<td>Mac OS X</td>
+						</tr>
+						<tr>
+							<td>Android</td>
+						</tr>
+						<tr>
+						 	<td>Linux</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="skills-col-4">
+					<table>
+						<tr>
+							<th><strong>Technical Support</strong></th>
+						</tr>
+						<tr>
+							<td>Virtual Machines</td>
+						</tr>
+						<tr>
+							<td>Remote Desktop</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="skills-col-5">
+					<table>
+						<tr>
+							<th><strong>Development Methologies</strong></th>
+						</tr>
+						<tr>
+							<td>Agile/Scrum</td>
+						</tr>
+						<tr>	
+							<td>Waterfall</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 		</div>
-
-
-		<div id="contact">
-			<div id="contact-header">
-				CONTACT
-			</div>
-			<div id="mail-header">
-				Email
-			</div>
-			<div id="git-header">
-				GitHub
-			</div>
-			<div id="facebook-header">
-				Facebook
-			</div>
-			<div id="twitter-header">
-				Twitter
-			</div>
-			<div id="instagram-header">
-				Instragram
-			</div>
-			<div id="mail">
-				<a href="mailto:mbfishman@quinnipuic.edu" target="_blank">
-					<img src="res/email_logo.png" alt="Email" width="84" height="84" border="0">
-				</a>
-			</div>
-			<div id="git">
-				<a href="https://github.com/mattbfishman" target="_blank">
-					<img src="res/git_logo.png" alt="Github" width="84" height="84" border="0">
-				</a>				
-			</div>
-			<div id="facebook">
-				<a href="https://www.facebook.com/matt.fishman.921" target="_blank">
-					<img src="res/fb_logo.png" alt="Facebook" width="84" height="84" border="0">
-				</a>
-			</div>
-			<div id="twitter">
-				<a href="https://twitter.com/MattFishman0" target="_blank">
-					<img src="res/twitter_logo.png" alt="Twitter" width="84" height="84" border="0">
-				</a>
-			</div>
-			<div id="instagram">
-				<a href="https://www.instagram.com/mattfishman/" target="_blank">
-					<img src="res/instagram_logo.png" alt="Instagram" width="84" height="84" border="0">
-				</a>
-			</div>
-		</div>
-
 	</div>
 
+	<div id="contact">
+		<div class="container">
+			<div class="contact-header">
+				CONTACT
+			</div>
+			<!-- <div class="col-sm-2 col-sm-offset-1">
+				<div class="mail-header">
+					Email
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="git-header">
+					GitHub
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="facebook-header">
+					Facebook
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="twitter-header">
+					Twitter
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="instagram-header">
+					Instragram
+				</div>
+			</div> -->
+			<div class="col-sm-2 col-sm-offset-1">
+				<div class="mail">
+					<a href="mailto:mbfishman@quinnipuic.edu" target="_blank">
+						<img src="res/email_logo.png" alt="Email" width="84" height="84" border="0">
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="git">
+					<a href="https://github.com/mattbfishman" target="_blank">
+						<img src="res/git_logo.png" alt="Github" width="84" height="84" border="0">
+					</a>				
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="facebook">
+					<a href="https://www.facebook.com/matt.fishman.921" target="_blank">
+						<img src="res/fb_logo.png" alt="Facebook" width="84" height="84" border="0">
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="twitter">
+					<a href="https://twitter.com/MattFishman0" target="_blank">
+						<img src="res/twitter_logo.png" alt="Twitter" width="84" height="84" border="0">
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="instagram">
+					<a href="https://www.instagram.com/mattfishman/" target="_blank">
+						<img src="res/instagram_logo.png" alt="Instagram" width="84" height="84" border="0">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="navbar-bottom">
+		Made with Twitter Bootstrap
+	</div>
+	
+	
 
 
 </body>

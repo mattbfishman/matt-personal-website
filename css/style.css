@@ -1,3 +1,6 @@
+/* 
+Nav bar styling 
+*/
 .nav{
   background: #2e2e2e;
   color: white;
@@ -17,6 +20,39 @@
 .active a{
   background-color: orange !important;
 }
+
+/*
+Link styling
+*/
+a{
+    color:orange;
+    text-decoration: none;
+}
+a:hover,a:visited,a:active{
+    text-decoration: none;
+    color:orange;
+}
+
+/*
+Sets the height of the page and make sures there is no overflow
+*/
+html, body{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/*
+Table heading sizeing and coloring
+*/
+th{
+    font-size: 24px;
+    text-align: center;
+    color:black;
+}
+
+#about{
+    margin-top: 50px;
+}
 .about-header,.contact-header{
     color:gray;
     font-weight: bold;
@@ -25,11 +61,24 @@
     padding-top: 35px;
 
 }
+.about-right-col{
+    font-size: 18px;
+    text-align: left;
+    padding-top: 10%;
+}
+
+.about-left-col{
+    padding-top: 10%;
+}
+
 #about, #contact{
     background-color: white;
     color:#3399ff;
     min-height: 100%;
 
+}
+#about td{
+    padding-top: 30px;
 }
 #hobbies{
   background-color: gray;
@@ -46,29 +95,6 @@
   color:white;
   padding-bottom: 5%;
 }
-#about{
-    margin-top: 50px;
-}
-
-.about-right-col{
-    font-size: 18px;
-    text-align: left;
-    padding-top: 10%;
-}
-
-.about-left-col{
-    padding-top: 10%;
-}
-
-a{
-    color:orange;
-    text-decoration: none;
-}
-a:hover,a:visited,a:active{
-    text-decoration: none;
-    color:orange;
-}
-
 #skills{
     background-color: #3399ff;
     min-height: 100%;
@@ -89,15 +115,6 @@ a:hover,a:visited,a:active{
     color:white;
     background: 
 }
-html, body{
-  height: 100%;
-  overflow-x: hidden;
-}
-th{
-    font-size: 24px;
-    text-align: center;
-    color:black;
-}
 
 #skills .container{
     background-color: #3399ff;
@@ -111,12 +128,11 @@ th{
 #skills .col-sm-2{
      background-color: #3399ff;
 }
-.mail,.git,.facebook,.twitter,.instagram{
-    font-weight: bold;
-    font-size: 24px;
-    max-height: 5%;
-    max-width:5%;
+
+.contact-header{
+  padding-bottom: 15%;
 }
+
 
 #contact .col-sm-2{
     margin-top: 50px;
@@ -130,13 +146,16 @@ th{
   padding-right: 0px;
   min-height: 100%;
 }
-#about td{
-    padding-top: 30px;
+/*
+Contact images sizing
+*/
+.mail,.git,.facebook,.twitter,.instagram{
+    font-weight: bold;
+    font-size: 24px;
+    max-height: 5%;
+    max-width:5%;
 }
 
-.contact-header{
-  padding-bottom: 15%;
-}
 .navbar-bottom{
   background-color: #2e2e2e;
   color:white;

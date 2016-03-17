@@ -1,5 +1,5 @@
-/* 
-Nav bar styling 
+/*
+Nav bar styling
 */
 .nav{
   background: #2e2e2e;
@@ -12,8 +12,8 @@ Nav bar styling
     background-color: #2e2e2e;
 }
 .collapsed{
-    background: orange; 
-} 
+    background: orange;
+}
 .navbar{
   color: #2e2e2e;
 }
@@ -104,6 +104,12 @@ th{
   color:white;
   padding-bottom: 5%;
 }
+
+#hobbies img {
+    height: 250px;
+    width: 350px;
+}
+
 #skills{
     background-color: #3399ff;
     min-height: 100%;
@@ -157,6 +163,12 @@ th{
 /*
 Contact images sizing
 */
+
+#contact img {
+    height: 84px;
+    width: 84px;
+}
+
 .mail,.git,.facebook,.twitter,.instagram{
     font-weight: bold;
     font-size: 24px;
@@ -169,8 +181,3 @@ Contact images sizing
   color:white;
   text-align: center;
 }
-
-
-
-
-

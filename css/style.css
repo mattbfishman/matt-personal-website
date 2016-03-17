@@ -64,6 +64,13 @@ a,a:hover,a:visited,a:active{
     text-decoration: none;
     color:orange;
 }
+<<<<<<< HEAD
+=======
+a:hover,a:visited,a:active{
+    text-decoration: none;
+    color:orange;
+}
+>>>>>>> master
 
 #skills{
     background-color: #3399ff;

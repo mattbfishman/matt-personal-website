@@ -8,9 +8,16 @@ Nav bar styling
 .nav li:hover{
   background:#666666;
 }
-.navbar-default .navbar-toggle{
-  color:white;
+.navbar-default {
+    background-color: #2e2e2e;
 }
+.collapsed{
+    background: orange; 
+} 
+.navbar{
+  color: #2e2e2e;
+}
+
 .nav ul{
   color:white;
 }
@@ -20,6 +27,8 @@ Nav bar styling
 .active a{
   background-color: orange !important;
 }
+
+
 
 /*
 Link styling

@@ -9,10 +9,10 @@ Nav bar styling
   background:#666666;
 }
 .navbar-default {
-    background-color: #2e2e2e;
+  background-color: #2e2e2e;
 }
 .collapsed{
-    background: orange; 
+  background: orange; 
 } 
 .navbar{
   color: #2e2e2e;
@@ -34,12 +34,12 @@ Nav bar styling
 Link styling
 */
 a{
-    color:orange;
-    text-decoration: none;
+  color:orange;
+  text-decoration: none;
 }
 a:hover,a:visited,a:active{
-    text-decoration: none;
-    color:orange;
+  text-decoration: none;
+  color:orange;
 }
 
 /*
@@ -54,40 +54,83 @@ html, body{
 Table heading sizeing and coloring
 */
 th{
-    font-size: 24px;
-    text-align: center;
-    color:black;
+  font-size: 24px;
+  text-align: center;
+  color:black;
 }
 
 #about{
-    margin-top: 50px;
+  margin-top: 50px;
+  color:#3399ff;
 }
-.about-header,.contact-header{
-    color:gray;
-    font-weight: bold;
-    font-size: 48px;
-    text-align: center;
-    padding-top: 35px;
+.about-header,.contact-header, .projects-header{
+  color:gray;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 35px;
 
 }
 .about-right-col{
-    font-size: 18px;
-    text-align: left;
-    padding-top: 10%;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 10%;
 }
 
 .about-left-col{
-    padding-top: 10%;
+  padding-top: 10%;
 }
 
-#about, #contact{
-    background-color: white;
-    color:#3399ff;
-    min-height: 100%;
-
+#about, #projects, #contact{
+  background-color: white;
+  min-height: 100%;
 }
 #about td{
-    padding-top: 30px;
+  padding-top: 30px;
+}
+
+#skills{
+  background-color: #3399ff;
+  min-height: 100%;
+  min-width: 100%;
+}
+.skills-header{
+  color:#111;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 35px;
+
+}
+.skills-col-1,.skills-col-2,.skills-col-3,.skills-col-4,.skills-col-5{
+  font-size: 18px;
+  padding-top: 50%;
+  text-align: center;
+  color:white;
+}
+
+#skills .container{
+  background-color: #3399ff;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-height: 100%;
+}
+#skills .col-sm-2{
+  background-color: #3399ff;
+}
+.projects-header{
+  padding-bottom: 10%;
+}
+#projects h1{
+  color: #3399ff;
+  font-weight: bold;
+  text-align: center;
+}
+#projects .col-sm-6{
+  text-align: left;
+  font-size: 18px;
 }
 #hobbies{
   background-color: gray;
@@ -102,49 +145,15 @@ th{
   font-size: 48px;
   padding-top: 35px;
   color:white;
-  padding-bottom: 5%;
-}
-#skills{
-    background-color: #3399ff;
-    min-height: 100%;
-    min-width: 100%;
-}
-.skills-header{
-    color:#111;
-    font-weight: bold;
-    font-size: 48px;
-    text-align: center;
-    padding-top: 35px;
-
-}
-.skills-col-1,.skills-col-2,.skills-col-3,.skills-col-4,.skills-col-5{
-    font-size: 18px;
-    padding-top: 50%;
-    text-align: center;
-    color:white;
-}
-
-#skills .container{
-    background-color: #3399ff;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0px;
-    padding-right: 0px;
-    min-height: 100%;
-
-}
-#skills .col-sm-2{
-     background-color: #3399ff;
+  padding-bottom:2%;
 }
 
 .contact-header{
   padding-bottom: 15%;
 }
-
-
 #contact .col-sm-2{
-    margin-top: 50px;
-    background-color:white;
+  margin-top: 50px;
+  background-color:white;
 }
 #contact .container{
   background-color: white;
@@ -158,10 +167,10 @@ th{
 Contact images sizing
 */
 .mail,.git,.facebook,.twitter,.instagram{
-    font-weight: bold;
-    font-size: 24px;
-    max-height: 5%;
-    max-width:5%;
+  font-weight: bold;
+  font-size: 24px;
+  max-height: 5%;
+  max-width:5%;
 }
 
 .navbar-bottom{
@@ -169,8 +178,3 @@ Contact images sizing
   color:white;
   text-align: center;
 }
-
-
-
-
-

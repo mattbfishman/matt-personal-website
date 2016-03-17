@@ -60,17 +60,14 @@
     padding-top: 10%;
 }
 
-a,a:hover,a:visited,a:active{
-    text-decoration: none;
+a{
     color:orange;
+    text-decoration: none;
 }
-<<<<<<< HEAD
-=======
 a:hover,a:visited,a:active{
     text-decoration: none;
     color:orange;
 }
->>>>>>> master
 
 #skills{
     background-color: #3399ff;

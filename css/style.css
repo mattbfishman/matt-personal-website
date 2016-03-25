@@ -179,15 +179,13 @@ Contact images sizing
   max-height: 5%;
   max-width: 5%;
 }
-.contact-images{
-  height: 84px;
-  width: 84px;
+i:hover {
+  color: #3399ff;
 }
 
 .jumpToTop{
   text-align: center;
-  padding-top: 25px;
-  font-size: 36px;
+  font-size: 24px;
 }
 
 .navbar-bottom {

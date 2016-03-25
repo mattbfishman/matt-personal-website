@@ -179,9 +179,8 @@ Contact images sizing
   max-height: 5%;
   max-width: 5%;
 }
-.contact-images{
-  height: 84px;
-  width: 84px;
+i:hover {
+  color: #3399ff;
 }
 
 .navbar-bottom {

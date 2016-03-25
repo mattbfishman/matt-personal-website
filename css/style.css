@@ -184,6 +184,12 @@ Contact images sizing
   width: 84px;
 }
 
+.jumpToTop{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 36px;
+}
+
 .navbar-bottom {
   background-color: #2e2e2e;
   color:white;
